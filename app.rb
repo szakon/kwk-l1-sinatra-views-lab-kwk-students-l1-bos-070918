@@ -9,8 +9,8 @@ class App < Sinatra::Base
 	  erb :goodbye
 	end
 	
-	get '/data' do 
-	  erb :date
+	get '/date' do 
+	  erb :data
 	end
 
 
